@@ -11,5 +11,5 @@ public class NdkJNIUtils {
         return instance;
     }
 
-    public native String hello();
+    public native String helloFromJNI();
 }

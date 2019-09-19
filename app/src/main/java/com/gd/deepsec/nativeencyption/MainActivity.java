@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tv = findViewById(R.id.hello_tv);
-        tv.setText(NdkJNIUtils.getInstance().hello());
+        tv.setText(NdkJNIUtils.getInstance().helloFromJNI());
     }
 }
