@@ -12,4 +12,6 @@ public class NdkJNIUtils {
     }
 
     public native String helloFromJNI();
+    public native byte[] aesEncrypt(byte[] data, byte[] key, int length);
+    public native byte[] aesDecrypt(byte[] data, byte[] key, int length);
 }
